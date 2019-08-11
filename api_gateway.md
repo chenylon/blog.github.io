@@ -84,6 +84,11 @@ Endpoint URL为NLB的DNS地址，注意协议。
 curl -H "x-api-key: YOUR_API_KEY" https://YOUR_STAGE_INVOKE_URL
 ```
 
+### 配置WAF 
+API gateway可以通过WAF来进行ACL，配置起来相当方便。
+AWS WAF -> Create web ACL 注意WAF Resource type要选择API Gateway， 然后依次选择对应的API和stage。rule和ip range配置参考WAF文档。
+<https://docs.aws.amazon.com/waf/latest/developerguide/getting-started.html>
+
 ### 配置 Custom Domain Name
 在API gateway控制台的左侧导航栏中选择 Custom Domain Names -> Create Custom Domain Name
 ![](images/api-gateway/custom_domain.png)
