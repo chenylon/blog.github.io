@@ -8,4 +8,4 @@ AWS API gateway 提供了一整套部署和管理API的方法。通过VPC link�
 - NLB
 - WAF
 
-![avatar](https://drive.google.com/file/d/1Bt08OX9Csv9KTp-kc-C7O-8fTtNuJSA4/preview)
+![avatar](架构图.png)
